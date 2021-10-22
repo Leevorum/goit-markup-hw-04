@@ -8,8 +8,9 @@
   --second-background-color: #2f303a;
   --third-background-color: #f5f4fa;
   --background-accent: #188ce8;
+  --background-icon: #afb1b8;
 }
-
+/* utilities and resets */
 body {
   padding: 0;
   margin: 0;
@@ -199,6 +200,20 @@ img {
 .advantages .item + .item {
   margin-left: 30px;
 }
+.advantages-icon {
+  /* align-items: center; */
+  /* justify-content: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.advantages-icon-bg {
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  background-color: var(--third-background-color);
+}
+
 /* what we do */
 .section-heading {
   margin-bottom: 50px;
