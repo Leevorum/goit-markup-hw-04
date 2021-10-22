@@ -236,6 +236,7 @@ img {
   text-align: center;
 }
 .team-text {
+  margin-bottom: 16px;
   font-size: var(--secondary-font-size);
   line-height: 1.172;
   text-align: center;
@@ -254,6 +255,30 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   background: var(--mainbackground);
+}
+.team-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: var(--background-icon);
+}
+.team-social-icon {
+  fill: currentColor;
+}
+
+.team-social .item-social + .item-social {
+  margin-left: 10px;
+}
+.team-social-link:hover {
+  color: var(--text-accent-color);
 }
 /* portfolio */
 /* filter buttons */
