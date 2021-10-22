@@ -118,6 +118,14 @@ img {
 .contacts-nav .item + .item {
   margin-left: 50px;
 }
+.nav-link-icon {
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  fill: currentColor;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* Studio page */
 .section {
   padding-top: 94px;
