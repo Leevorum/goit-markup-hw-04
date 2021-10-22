@@ -201,8 +201,6 @@ img {
   margin-left: 30px;
 }
 .advantages-icon {
-  /* align-items: center; */
-  /* justify-content: center; */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -218,7 +216,7 @@ img {
 .section-heading {
   margin-bottom: 50px;
   font-size: 36px;
-  line-height: 1.16;
+  line-height: 1.17;
   text-align: center;
 }
 .working .item + .item {
@@ -280,6 +278,32 @@ img {
 .team-social-link:hover {
   color: var(--text-accent-color);
 }
+
+/* regular customers */
+.regular-customers .customer-item {
+  padding: 16px 32px;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--background-icon);
+  border-radius: 4px;
+}
+.customer-links {
+  width: 106px;
+  height: 60px;
+  color: var(--background-icon);
+}
+.customer-links:hover {
+  color: var(--background-accent);
+}
+.customer-icon {
+  fill: currentColor;
+}
+.customer-item + .customer-item {
+  margin-left: 30px;
+}
+
 /* portfolio */
 /* filter buttons */
 .filter-btns {
