@@ -95,7 +95,7 @@ img {
   padding-bottom: 32px;
   font-weight: 500;
   font-size: var(--main-font-size);
-  line-height: 0.9;
+  line-height: 1.172;
   text-decoration: none;
   color: var(--text-primary-color);
 }
@@ -103,6 +103,8 @@ img {
   margin-left: auto;
 }
 .contacts {
+  display: inline-flex;
+  align-items: center;
   color: var(--text-secondary-color);
 }
 
@@ -121,11 +123,7 @@ img {
 }
 .nav-link-icon {
   margin-right: 10px;
-  align-items: center;
-  justify-content: center;
   fill: currentColor;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 /* Studio page */
 .section {
