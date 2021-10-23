@@ -275,7 +275,8 @@ img {
   margin-left: 10px;
 }
 .team-social-link:hover {
-  color: var(--text-accent-color);
+  background: var(--background-accent);
+  color: var(--mainbackground);
 }
 
 /* regular customers */
@@ -297,6 +298,7 @@ img {
 }
 .customer-links:hover {
   color: var(--background-accent);
+  border: 1px solid var(--background-accent);
 }
 .customer-icon {
   fill: currentColor;
