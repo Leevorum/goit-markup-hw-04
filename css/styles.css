@@ -284,8 +284,6 @@ img {
 .regular-customers .customer-item {
   width: 170px;
   height: 92px;
-  border: 1px solid var(--background-icon);
-  border-radius: 4px;
 }
 .customer-item {
 }
@@ -296,6 +294,8 @@ img {
   width: 170px;
   height: 92px;
   color: var(--background-icon);
+  border: 1px solid var(--background-icon);
+  border-radius: 4px;
 }
 .customer-links:hover {
   color: var(--background-accent);
